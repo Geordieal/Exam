@@ -1,0 +1,29 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer h3 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: right;
+}
+
+.contact span {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  color: #525c60;
+  margin-top: 40px;
+}
+.contact p {
+  line-height: 29px;
+  text-align: right;
+}

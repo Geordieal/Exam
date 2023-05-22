@@ -1,0 +1,51 @@
+.header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header__menu {
+    min-width: 664px;
+    padding-right: 248px;
+  }
+  .header__list {
+    max-width: 525px;
+    display: flex;
+    justify-content: space-between;
+    .header__link {
+      font-family: "Roboto";
+      font-size: 19px;
+    }
+    a {
+      &:focus {
+        color: #7eb693;
+      }
+    }
+  }
+  .header__cart {
+    border: 1px solid #d4d4d4;
+    border-radius: 33px;
+    min-width: 159px;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    img {
+      margin-right: 8px;
+    }
+    span {
+      margin-right: 11px;
+    }
+  }
+  .header__menu,
+  .header__logo,
+  .header__cart {
+    padding: 5px 0px;
+  }
+
+  li {
+    &:last-child {
+      padding-left: 20px;
+    }
+  }
+}

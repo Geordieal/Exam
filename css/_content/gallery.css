@@ -1,0 +1,10 @@
+.gallery {
+  padding: 140px 0px;
+  min-height: 500px;
+}
+.gallery .gallery__images {
+  display: block;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

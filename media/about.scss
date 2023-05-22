@@ -1,0 +1,180 @@
+@media (max-width: 1280px) {
+  .about {
+    padding: 130px 30px;
+    .about__col-2 {
+      max-width: 500px;
+      min-height: 700px;
+      p {
+        font-size: 1.4vw;
+      }
+      .button {
+        width: 200px;
+        height: 75px;
+        span {
+          font-size: 1.55vw;
+        }
+      }
+    }
+    h1 {
+      font-size: 3.5vw;
+    }
+    h2 {
+      font-size: 2.8vw;
+    }
+    h3 {
+      font-size: 2vw;
+    }
+
+    .about__item {
+      gap: 17px;
+    }
+    .button {
+      margin-top: 50px;
+    }
+  }
+  .about__items {
+    margin-top: 50px;
+    gap: 33px;
+    img {
+      width: 80px;
+      height: 131px;
+    }
+  }
+  .about__col-1 {
+    width: 400px;
+    img {
+      width: 100%;
+      height: 380px;
+    }
+  }
+  .about__caption {
+    p {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 976px) {
+  .about {
+    padding: 50px 20px;
+    h2 {
+      line-height: 40px;
+    }
+    h1 {
+      line-height: 30px;
+    }
+    p {
+      line-height: 22px;
+    }
+    h3 {
+      line-height: 28px;
+    }
+    .about__caption {
+      text-align: center;
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
+  .about__col-1 {
+    display: none;
+  }
+
+  .about__col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .button {
+      max-width: 150px;
+      max-height: 55px;
+      margin-top: 15px;
+      span {
+        margin-left: 15px;
+      }
+      .button__arrow {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+
+  .about__items {
+    margin-top: 0px;
+    gap: 0px;
+
+    img {
+      width: 60px;
+      height: 110px;
+    }
+  }
+
+  .about__cols {
+    height: 540px;
+  }
+
+  .about__item {
+    align-items: center;
+  }
+}
+
+@media (max-width: 745px) {
+  .about {
+    padding: 10px 15px;
+    .about__col-2 {
+      min-height: 0px;
+    }
+    h2 {
+      line-height: 30px;
+    }
+    h1 {
+      line-height: 30px;
+    }
+    p {
+      line-height: 15px;
+    }
+    h3 {
+      line-height: 23px;
+    }
+    .about__caption {
+      text-align: center;
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .about__cols {
+    height: 470px;
+  }
+  .about__col-2 {
+    .button {
+      max-width: 130px;
+      max-height: 40px;
+
+      .button__arrow {
+        width: 13px;
+        height: 13px;
+      }
+    }
+  }
+
+  .about__items {
+    img {
+      width: 40px;
+      height: 90px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .about__cols {
+    height: 420px;
+  }
+  .about__col-2 {
+    .button {
+      max-width: 110px;
+      max-height: 35px;
+    }
+  }
+}

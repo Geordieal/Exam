@@ -1,0 +1,44 @@
+.button {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 219px;
+  max-height: 82px;
+  background: #efd372;
+  border: 1px solid #efd372;
+  box-shadow: 0px 4px 4px rgba(235, 217, 217, 0.25);
+  border-radius: 16px;
+  transition-duration: 1s;
+  .button__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #335b6b;
+    border-radius: 25px;
+    width: 38px;
+    height: 38px;
+    margin-right: 9px;
+  }
+  a {
+    min-width: 100%;
+    min-height: 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      font-family: "Roboto";
+      font-size: 19px;
+      line-height: 32px;
+      text-transform: capitalize;
+      margin-left: 33px;
+    }
+  }
+}
+
+.button:hover {
+  transition: all 1s ease 0s;
+  top: 2px;
+  background: #77608d;
+}

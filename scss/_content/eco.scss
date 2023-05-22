@@ -1,0 +1,35 @@
+.eco__cols {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  position: relative;
+  h3 {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+  }
+}
+
+.eco__col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  padding-left: 60px;
+  background: #ffffff;
+  border-radius: 30px 0px 0px 30px;
+  width: 720px;
+  height: 623px;
+  right: 120px;
+  top: 40px;
+}
+
+.eco__caption {
+  width: 50%;
+}
+
+.eco__describe {
+  h3,
+  p {
+    margin-bottom: 10px;
+  }
+}

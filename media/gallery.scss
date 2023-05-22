@@ -1,0 +1,89 @@
+@media (max-width: 1439px) {
+  .gallery {
+    padding: 125px 0px;
+  }
+
+  .gallery__items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .gallery__image_natural {
+    &:before {
+      content: "natural!!";
+      font-size: 2.5vw;
+      line-height: 5vw;
+    }
+    &:after {
+      content: "get garden fresh fruits";
+      font-size: 2.8vw;
+      line-height: 3.5vw;
+      max-width: 219px;
+    }
+  }
+
+  .gallery__image_offer {
+    &:before {
+      content: "offer!!";
+      font-size: 2.5vw;
+      line-height: 5vw;
+    }
+    &:after {
+      content: "Get 10% off on Vegetables";
+      font-size: 2.8vw;
+      line-height: 3.5vw;
+      max-width: 260px;
+    }
+  }
+}
+
+@media (max-width: 989px) {
+  .gallery {
+    padding: 80px 0px;
+  }
+
+  .gallery__items {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .gallery__image_natural {
+    &:after {
+      content: "get garden fresh fruits";
+      max-width: 150px;
+    }
+  }
+
+  .gallery__image_offer {
+    &:after {
+      content: "Get 10% off on Vegetables";
+      max-width: 210px;
+    }
+  }
+}
+
+@media (max-width: 669px) {
+  .gallery {
+    padding: 30px 0px;
+  }
+
+  .gallery__items {
+    gap: 10px;
+  }
+
+  .gallery__image_natural {
+    &:after {
+      content: "get garden fresh fruits";
+      max-width: 90px;
+    }
+  }
+
+  .gallery__image_offer {
+    &:after {
+      content: "Get 10% off on Vegetables";
+      max-width: 130px;
+    }
+  }
+}

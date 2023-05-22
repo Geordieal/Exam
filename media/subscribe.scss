@@ -1,0 +1,123 @@
+@media (max-width: 1200px) {
+  .subscribe__content {
+    padding: 0px 50px;
+    h1 {
+      font-size: 40px;
+      line-height: 45px;
+
+      max-width: 270px;
+    }
+    .button {
+      width: 150px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span {
+        margin-left: 10px;
+        font-size: 17px;
+      }
+      .button__arrow {
+        width: 34px;
+        height: 34px;
+      }
+    }
+    input {
+      max-width: 260px;
+      height: 70px;
+      font-size: 14px;
+      line-height: 20px;
+      &::placeholder {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .subscribe {
+    min-height: 250px;
+    margin-top: 25px;
+  }
+  .subscribe__content {
+    padding: 0px 40px;
+    min-height: 250px;
+    h1 {
+      font-size: 32px;
+      line-height: 35px;
+
+      max-width: 220px;
+    }
+    .button {
+      width: 130px;
+      height: 50px;
+
+      span {
+        margin-left: 10px;
+        font-size: 15px;
+      }
+      .button__arrow {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    input {
+      max-width: 230px;
+      height: 60px;
+      font-size: 15px;
+      line-height: 15px;
+      padding: 0px 15px;
+      &::placeholder {
+        font-size: 15px;
+        line-height: 15px;
+      }
+    }
+  }
+  .subscribe__form {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 663px) {
+  .subscribe {
+    min-height: 200px;
+    margin-top: 15px;
+  }
+  .subscribe__content {
+    padding: 0px 30px;
+    min-height: 200px;
+    h1 {
+      font-size: 24px;
+      line-height: 25px;
+      max-width: 190px;
+    }
+    .button {
+      width: 110px;
+      height: 45px;
+
+      span {
+        margin-left: 5px;
+        font-size: 12px;
+      }
+      .button__arrow {
+        width: 25px;
+        height: 25px;
+      }
+    }
+    input {
+      max-width: 190px;
+      height: 50px;
+      font-size: 12px;
+      line-height: 10px;
+      padding: 0px 12px;
+      &::placeholder {
+        font-size: 12px;
+        line-height: 10px;
+      }
+    }
+  }
+  .subscribe__form {
+    flex-direction: column;
+  }
+}

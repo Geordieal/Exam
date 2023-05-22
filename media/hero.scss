@@ -1,0 +1,112 @@
+@media (max-width: 1399px) {
+  .hero {
+    .hero__col-2 {
+      max-width: 496px;
+      h1 {
+        font-size: 5vw;
+        line-height: 5.5vw;
+      }
+      h2 {
+        font-size: 2.57vw;
+        line-height: 3vw;
+      }
+      .button {
+        width: 200px;
+        height: 72px;
+        span {
+          margin-left: 25px;
+          font-size: 17px;
+        }
+        .button__arrow {
+          width: 34px;
+          height: 34px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    .hero__col-2 {
+      max-width: 500px;
+      .button {
+        width: 170px;
+        height: 60px;
+        span {
+          margin-left: 20px;
+          font-size: 14px;
+        }
+        .button__arrow {
+          width: 29px;
+          height: 29px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  .hero {
+    .hero__col-2 {
+      .button {
+        width: 130px;
+        height: 45px;
+        span {
+          margin-left: 10px;
+          font-size: 12px;
+        }
+        .button__arrow {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  .hero {
+    .hero__col-2 {
+      .button {
+        width: 110px;
+        height: 40px;
+        span {
+          margin-left: 8px;
+          font-size: 11px;
+        }
+        .button__arrow {
+          width: 21px;
+          height: 21px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 612px) {
+  .hero {
+    .hero__col-2 {
+      max-width: 350px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    .hero__col-2 {
+      .button {
+        width: 90px;
+        height: 33px;
+        span {
+          margin-left: 4px;
+          font-size: 9px;
+        }
+        .button__arrow {
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
+  }
+}

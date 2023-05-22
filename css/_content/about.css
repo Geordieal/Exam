@@ -1,0 +1,5 @@
+.about .about__cols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

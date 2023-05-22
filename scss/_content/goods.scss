@@ -1,0 +1,92 @@
+.goods {
+  padding: 140px 0px;
+  background: #eff6f1;
+}
+
+.goods__items {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 1fr;
+}
+
+.goods__item {
+  display: grid;
+}
+
+.goods__image {
+  position: relative;
+  img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+}
+
+.goods__image_juice {
+  &:before {
+    content: "fruit juice";
+    position: absolute;
+    top: 42%;
+    left: calc(50% - 156px);
+    z-index: 100;
+    text-transform: capitalize;
+    background: #ffffff;
+    border-radius: 20px;
+    width: 312px;
+    height: 95px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.goods__image_food {
+  &:before {
+    content: "organic food";
+    position: absolute;
+    top: 42%;
+    left: calc(50% - 156px);
+    z-index: 100;
+    text-transform: capitalize;
+    background: #ffffff;
+    border-radius: 20px;
+    width: 312px;
+    height: 95px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.goods__image_cookies {
+  &:before {
+    content: "nuts cookies";
+    position: absolute;
+    top: 42%;
+    left: calc(50% - 156px);
+    z-index: 100;
+    text-transform: capitalize;
+    background: #ffffff;
+    border-radius: 20px;
+    width: 312px;
+    height: 95px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

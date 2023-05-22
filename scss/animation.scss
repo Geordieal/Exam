@@ -1,0 +1,25 @@
+.products__image_scale {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.products__image_scale img {
+  transition: 1s;
+  display: block;
+}
+.products__image_scale img:hover {
+  transform: scale(1.1);
+}
+
+.offer__image_scale {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.offer__image_scale img {
+  transition: 1s;
+  display: block;
+}
+.offer__image_scale img:hover {
+  transform: scale(1.1);
+}
